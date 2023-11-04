@@ -1,4 +1,4 @@
-import AboutImg from "../assets/images/about-img.jpg"
+import AboutImg from "/images/about-img.jpg"
 
 
 function About() {
@@ -8,11 +8,11 @@ function About() {
         <h1 className="heading"> <span>About</span> Us </h1>
 
         <div className="row">
-            <div className="image">
-                <img src={AboutImg} alt="" />
-            </div>
+          <div className="image">
+            <img src={AboutImg} alt="" />
+          </div>
 
-            <div className="content">
+          <div className="content">
             <h3>what makes our food special?</h3>
 
             <p>
@@ -30,7 +30,7 @@ function About() {
 
             <a href="#" className="btn">Learn More</a>
 
-            </div>
+          </div>
         </div>
       </section>
     </>
